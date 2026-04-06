@@ -32,4 +32,11 @@ To build strong DSA fundamentals and become interview-ready.
 
 ---
 
+## 🌐 Connect with Me
+
+- [Linkedin](https://www.linkedin.com/in/omkar-narlawar-7504a8388/)
+
+- [GitHub](https://github.com/OmkarNarlawar26)
+---
+
 ⭐ If you find this helpful, feel free to explore the repository!
