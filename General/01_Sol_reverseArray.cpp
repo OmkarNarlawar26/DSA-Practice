@@ -15,8 +15,8 @@ public:
             end--;
         }
 
-        swap(arr[i], arr[n-i-1]);
-        reverse(arr,n);
+        // swap(arr[i], arr[n-i-1]);
+        // reverse(arr,n);
     }
 };
 
