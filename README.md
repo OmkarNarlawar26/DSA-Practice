@@ -14,7 +14,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 The repository spans multiple DSA concepts and follows a clean, modular structure, with each problem organized in its own directory.
 
 Each problem contains:
-- 📄 Problem description (`question.md`)
+- 📄 Problem description (`question.txt`)
 - 💻 Solution code (`solution.cpp`)
 
 ## 🚀 Approach
