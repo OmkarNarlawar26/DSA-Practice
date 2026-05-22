@@ -40,3 +40,6 @@ public class Answer {
         System.out.println("Largest odd number: " + result);
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
