@@ -6,35 +6,51 @@ All occurrences of a character must be replaced with another character while pre
 
 Example 1
 
-Input : s = "egg" , t = "add"
+    Input : s = "egg" , t = "add"
 
-Output : true
+    Output : true
 
-Explanation :
+        Explanation :
 
-The 'e' in string s can be replaced with 'a' of string t.
+        The 'e' in string s can be replaced with 'a' of string t.
 
-The 'g' in string s can be replaced with 'd' of t.
+        The 'g' in string s can be replaced with 'd' of t.
 
-Hence all characters in s can be replaced to get t.
+        Hence all characters in s can be replaced to get t.
 
 Example 2
 
-Input : s = "apple" , t = "bbnbm"
+    Input : s = "apple" , t = "bbnbm"
 
-Output : false
+    Output : false
 
-Explanation :
+    Explanation :
 
-Strings are matched index by index.
+        Strings are matched index by index.
 
-At index 0, 'a' maps to 'b'.
+        At index 0, 'a' maps to 'b'.
 
-At index 1, 'p' also maps to 'b'.
+        At index 1, 'p' also maps to 'b'.
 
-This is invalid because two different characters (a and p) cannot map to the same character (b) in a one-to-one mapping.
+        This is invalid because two different characters (a and p) cannot map to the same character (b) in a one-to-one mapping.
 
-Therefore, no valid mapping exists and the output is false.
+        Therefore, no valid mapping exists and the output is false.
+
+Algorithm : 
+
+    - Think of isomorphism as a consistent one-to-one mapping between characters of two strings.
+- 
+    - The goal is to ensure the pattern of appearances and repetitions is identical in both strings.
+- 
+    - Use two fixed-size arrays (size 256) to track the last-seen positions of characters from each string.
+- 
+    - While scanning both strings together, compare if the characters at the current position have been seen at - the same relative positions before.
+- 
+    - If not, it indicates inconsistent mapping — one character maps to multiple others — return false.
+- 
+    - If consistent, update the last seen position of both characters to ensure future checks remain valid.
+- 
+    - This approach confirms isomorphic structure by comparing character occurrence patterns, not the characters themselves.
 
 */
 
